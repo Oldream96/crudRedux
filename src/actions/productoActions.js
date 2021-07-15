@@ -6,6 +6,6 @@ import {
 
 export function crearNuevoProductoAcion(producto){
     return () => {
-        console.log(producto);
+        console.log('leer',producto);
     }
 }
